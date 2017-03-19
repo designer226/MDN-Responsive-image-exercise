@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rece",
+				"receiver-column"
+			],
+			[
+				"my",
+				"myHeading"
+			],
+			[
+				"set",
+				"setUserName"
+			],
+			[
+				"r",
+				"random"
+			],
+			[
+				"f",
+				"focus"
+			],
+			[
+				"g",
+				"guessField"
+			],
+			[
+				"guess",
+				"guessField"
+			],
+			[
+				"re",
+				"resetButton"
+			],
+			[
+				"b",
+				"body"
+			],
+			[
+				"gu",
+				"guessField"
+			],
+			[
+				"ra",
+				"randomNumber"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"te",
+				"textContent"
+			],
+			[
+				"lo",
+				"lowOrHi"
+			],
+			[
+				"crea",
+				"createParagraph"
+			],
+			[
+				"butt",
+				"button"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"lis",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title>Mozilla splash page</title>\n    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>\n    <style>\n      /* header and body setup */\n      html {\n        font-family: 'Open Sans', sans-serif;\n        background: url(pattern.png);\n      }\n      body {\n        width: 100%;\n        max-width: 1200px;\n        min-width: 360px;\n        margin: 0 auto;\n        background-color: white;\n        position: relative;\n      }\n      /* Header styling */\n      header {\n        height: 150px;\n      }\n      header img {\n        width: 100px;\n        display block;\n        position: absolute;\n        right: 32.5px;\n        top: 32.5px;\n      }\n      h1 {\n        font-size: 50px;\n        line-height: 140px;\n        margin: 0 0 0 32.5px;\n      }\n      /* main section and video styling */\n      main {\n        background: #ccc;\n      }\n      article {\n        padding: 20px;\n      }\n      h2 {\n        margin-top: 0;\n      }\n      p {\n        line-height: 2;\n      }\n      iframe {\n        float: left;\n        margin: 0 20px 20px 0;\n        max-width: 100%;\n      }\n      /* further info links */\n      .further-info {\n        clear: left;\n        padding: 40px 0;\n        background: #c13832;\n        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),\n                    inset 0 -3px 2px rgba(0,0,0,0.5);\n      }\n      .further-info a {\n        width: 25%;\n        display: block;\n        float: left;\n      }\n      .further-info img {\n        max-width: 100%;\n      }\n      .clearfix {\n        clear: both;\n      }\n      /* Red panda image */\n      .red-panda img {\n        display: block;\n        max-width: 100%;\n      }\n    </style>\n  </head>\n  <body>\n    <header>\n      <h1>Mozilla</h1>\n      <!-- insert <img> element, link to the small\n          version of the Firefox logo -->\n      <img src=\"firefox_logo-only_RGB120.png\"/>\n    </header>\n\n    <main>\n      <article>\n        <!-- insert iframe from youtube -->\n        <iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/ojcNcvb1olg\" frameborder=\"0\" allowfullscreen></iframe>\n\n        <h2>Rocking the free web</h2>\n\n        <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>\n\n        <p>Click on the images below to find more information about the cool stuff Mozilla does. <a href=\"https://www.flickr.com/photos/mathiasappel/21675551065/\">Red panda picture</a> by Mathias Appel.</p>\n      </article>\n\n      <div class=\"further-info\">\n        <!-- insert images with srcsets and sizes -->\n        <a href=\"https://www.mozilla.org/en-US/firefox/new/\">  \n          <img srcset=\"firefox_logo-only_RGB120.png 120w,\n             firefox_logo-only_RGB400.png 400w\"\n            sizes=\"(max-width: 320px) 280px,\n            (max-width: 480px) 440px,\n            800px\"\n            src=\"elva-fairy-800w.jpg\" \n            alt=\"Elva dressed as a fairy\">\n        </a>\n        <a href=\"https://www.mozilla.org/\">\n          <img>\n        </a>\n        <a href=\"https://addons.mozilla.org/\">\n          <img>\n        </a>\n        <a href=\"https://developer.mozilla.org/en-US/\">\n          <img>\n        </a>\n        <div class=\"clearfix\"></div>\n      </div>\n\n      <div class=\"red-panda\">\n        <!-- insert picture element -->\n      </div>\n\n    </main>\n  </body>\n</html>\n\n",
+			"file": "index.html",
+			"file_size": 3410,
+			"file_write_time": 131343541731968116,
+			"settings":
+			{
+				"buffer_size": 3684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/paul/mozilla-tut4/style.css",
+		"/home/paul/mozilla-tut4/index.html",
+		"/home/paul/mozilla-tut3/index.html",
+		"/home/paul/mozilla-tut3/main.css",
+		"/home/paul/mozilla-tut/mozilla-tut/index.html",
+		"/home/paul/mozilla-tut/mozilla-tut/styles/style.css",
+		"/home/paul/mozilla-tut/mozilla-tut/scripts/scripts.js",
+		"/home/paul/mozilla-tut2/apply-javascript.html",
+		"/home/paul/mozilla-tut3/number-guessing-game-start.html",
+		"/home/paul/mozilla-tut2/script.js",
+		"/home/paul/mozilla-tut/mozilla-tut/style.css",
+		"/home/paul/the_odin_project/google-homepage/css/main.css",
+		"/home/paul/the_odin_project/google-homepage/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<br>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<br/>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3120,
+								3120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1565.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mozilla-tut5.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
